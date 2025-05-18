@@ -1,11 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:notification_demo/firebase_options.dart';
 import 'package:notification_demo/screens/home_screen.dart';
 import 'package:notification_demo/screens/second_screen.dart';
 import 'package:notification_demo/services/notification_service.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 void main() async {
   await NotificationService.initializeNotification();
   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
 
   runApp(const MyApp());
 }
