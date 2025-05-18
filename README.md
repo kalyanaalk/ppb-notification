@@ -1,16 +1,16 @@
-# notification_demo
+# Awesome Notifications with Firebase in Flutter Apps
 
-A new Flutter project.
+### Feature
 
-## Getting Started
+A CRUD application with notification features that trigger every time a data is added or updated, using Firestore Database to store the data.
 
-This project is a starting point for a Flutter application.
+### Reference
 
-A few resources to get you started if this is your first Flutter project:
+- https://github.com/agusbudi/mobile-programming/tree/main/08.%20Firebase
+- https://github.com/agusbudi/mobile-programming/tree/main/10.%20Awesome%20Notifications
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Image](https://github.com/user-attachments/assets/b881de83-b669-4c2c-815c-8999ccc60f7e)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Image](https://github.com/user-attachments/assets/81cb8560-ee1e-4f0c-8dc5-2a872c9b6d38)
+
+![Image](https://github.com/user-attachments/assets/a0e0db2c-2455-420b-91c2-3602bed8373e)
